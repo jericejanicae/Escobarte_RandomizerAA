@@ -1,0 +1,57 @@
+body {
+    background-color: lavenderblush;
+    font-family: Verdana;
+    animation: miming 0.5s infinite;
+}
+
+@keyframes miming {
+    0% {
+        cursor: url(miming1.gif), auto;
+    }
+    50% {
+        cursor: url(miming2.gif), auto;
+    }
+    100% {
+        cursor: url(miming1.gif), auto; 
+    }
+}
+
+h1 {
+    background-color: rgb(255, 193, 214);
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+#display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numbers {
+    background-color: rgb(255, 193, 214);
+    width: 250px;
+    height: auto;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 20px;
+}
+
+hr {
+    border-color: rgb(234, 98, 143);
+}
+
+#cat {
+    height: 50px;
+    width: 100%;
+    background-size: 50px;
+    background-image: url("miming.gif");
+    background-repeat: repeat-x;  
+}
